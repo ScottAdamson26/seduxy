@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { auth } from './firebaseConfig'; // Adjust this import path as necessary
+import { auth } from '../firebaseConfig';
 import { createUserWithEmailAndPassword, sendEmailVerification } from "firebase/auth";
 
 const Modal = ({ isOpen, onClose }) => {
@@ -84,7 +84,6 @@ const Modal = ({ isOpen, onClose }) => {
           />
         </div>
         {!isValid && !emailSubmitted && <p className="text-red-500 text-sm text-center font-montserrat">Please enter a valid email.</p>}
-        {emailSendingStatus === 'sending' && <p className="text-white text-sm text-center font-montserrat">Sending verification email...</p>}
         {emailSubmitted && <p className="text-white font-montserrat text-medium text-sm text-center mb-2 ml- mt-4">Please check your email for a confirmation link</p>}
         
         <button
