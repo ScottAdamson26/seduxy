@@ -10,7 +10,7 @@ const LandingPage = ({ toggleModal, isModalOpen }) => {
       </div>
       <div className="max-w-2xl flex flex-col items-center mt-20">
         <h1 className="font-montserrat font-bold text-4xl tracking-wider text-white">
-          The <span className="bg-gradient-to-r from-custom-pink to-custom-red text-white inline-block text-transparent bg-clip-text">#1</span> AI Girlfriend Experience
+          The <span className="bg-gradient-to-r from-custom-pink to-custom-red inline-block text-transparent bg-clip-text">#1</span> AI Girlfriend Experience
         </h1>
         <div className="max-w-lg mt-4">
           <h2 className="font-montserrat font-light text-white text-lg opacity-70">
