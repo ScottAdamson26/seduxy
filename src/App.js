@@ -4,6 +4,7 @@ import Modal from './components/Modal';
 import EmailVerification from './components/EmailVerification';
 import HomePage from './components/HomePage';
 import LandingPage from './components/LandingPage'; // Make sure this path is correct
+import ChatUI from './components/ChatUI'; // Import ChatUI component
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App bg-[url('/background.png')] bg-cover bg-no-repeat min-h-screen flex flex-col justify-center items-center text-center px-4">
+      <div className="App bg-gradient-to-b from-purple via--dark-purple to-dark-purple min-h-screen flex flex-col justify-center items-center text-center p-4">
         <Routes>
           <Route path="/" element={
             <>
@@ -26,6 +27,7 @@ function App() {
             </>
           } />
           <Route path="/home" element={<HomePage />} />
+          <Route path="/chat" element={<ChatUI />} /> {/* New route for ChatUI */}
         </Routes>
       </div>
     </Router>

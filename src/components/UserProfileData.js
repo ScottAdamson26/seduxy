@@ -2,7 +2,7 @@ import lucieImage from './images/square.png';
 
 const userProfiles = [
   { id: 1, name: 'Natasha', age: 26, imageUrl: lucieImage, bio: 'Natasha thrives in creative chaos, a visionary artist who paints her dreams.', tags: ['Creative', 'Visionary', 'Artistic'] },
-  { id: 2, name: 'Olivia', age: 22, imageUrl: lucieImage, bio: 'Olivia, a tech enthusiast, explores the digital world with boundless curiosity.', tags: ['Tech-savvy', 'Curious', 'Innovative'] },
+  { id: 2, name: 'Olivia', age: 22, imageUrl: lucieImage, bio: 'Olivia, a tech enthusiast, explores the digital world with boundless curiosity. ', tags: ['Tech-savvy', 'Curious', 'Innovative'] },
   { id: 3, name: 'Eve', age: 19, imageUrl: lucieImage, bio: 'Eve is a budding poet, finding beauty in the mundane, turning it into verse.', tags: ['Poetic', 'Observant', 'Inspired'] },
   { id: 4, name: 'Emily', age: 21, imageUrl: lucieImage, bio: 'Emily, an aspiring chef, blends tradition and innovation in her delightful dishes.', tags: ['Culinary Artist', 'Innovative', 'Passionate'] },
   { id: 5, name: 'Liz', age: 25, imageUrl: lucieImage, bio: 'Liz, a spirited activist, passionately advocates for environmental conservation.', tags: ['Activist', 'Passionate', 'Eco-Conscious'] },
