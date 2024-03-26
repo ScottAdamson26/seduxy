@@ -1,8 +1,4 @@
-import React, { useState } from 'react';
-import userProfiles from './UserProfileData';
-import SelectedGridSquare from './SelectedGridSquare'; // Import the SelectedGridSquare component
-import UnselectedGridSquare from './UnselectedGridSquare'; // Import the UnselectedGridSquare component
-import ProfileCard from './ProfileCard'; // Import the ProfileCard component
+import React from 'react';
 
 const ChatUI = () => {
 
