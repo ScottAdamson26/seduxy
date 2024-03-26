@@ -1,5 +1,5 @@
 // UserProfileData.js
-import lucieImage from './images/lucie.jpg';
+import lucieImage from './images/square.png';
 
 const userProfiles = [
   { id: 1, name: 'Natasha', age: 26, imageUrl: lucieImage, bio: 'Natasha thrives in creative chaos, a visionary artist who paints her dreams.' },
