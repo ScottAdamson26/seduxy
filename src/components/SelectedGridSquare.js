@@ -2,7 +2,7 @@ import React from 'react';
 
 const SelectedGridSquare = ({ user, onClick }) => {
 	return (
-		<div className='rounded-lg bg-gradient-to-r from-custom-pink to-custom-dp p-1 shadow-small'>
+		<div className='rounded-xl bg-gradient-to-r from-custom-pink to-custom-dp p-1 shadow-small'>
 			<div
 				className="user-profile relative bg-black rounded-lg cursor-pointer"
 				onClick={onClick}

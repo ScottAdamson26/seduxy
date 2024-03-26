@@ -23,10 +23,12 @@ const HomePage = () => {
 	return (
 		<div className="flex flex-col items-center min-h-screen text-white font-montserrat m-0 p-0 w-75 max-w-3xl mx-auto">
 			<div className="flex justify-center w-full m-0 p-0 m-6">
-				<img src="/seduxy.webp" alt="Seduxy Logo" className="w-32 drop-shadow-xl" />
+				<a href="/">
+					<img src="/seduxy.webp" alt="Seduxy Logo" className="w-32 drop-shadow-xl" />
+				</a>
 			</div>
 
-			<div className="rounded-lg bg-gradient-to-r from-custom-pink via-custom-red to-custom-yellow p-1 mb-6 w-full shadow-custom">
+			<div className="rounded-xl bg-gradient-to-r from-custom-pink via-custom-red to-custom-yellow p-1 mb-6 w-full shadow-custom">
 				<div className="flex flex-col md:flex-row items-start rounded-lg bg-black bg-opacity-60 mx-auto p-3 w-full backdrop-blur">
 					<img
 						src={displayedUserProfile.imageUrl}
@@ -39,9 +41,8 @@ const HomePage = () => {
 							{displayedUserProfile.age && (
 								<p className="ml-2 font-regular text-xl">{displayedUserProfile.age}</p>
 							)}
-
 						</div>
-                        <div>
+						<div>
 							{displayedUserProfile.tags &&
 								displayedUserProfile.tags.map((tag, index) => (
 									<div
