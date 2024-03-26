@@ -108,7 +108,7 @@ const Modal = ({ isOpen, onClose }) => {
 
 				<button
 					onClick={handleSubmit}
-					className="w-full bg-[#b82f5c] text-white font-bold py-2 rounded text-base tracking-wider mt-2"
+					className="w-full bg-gradient-to-r from-custom-pink to-custom-red text-white font-bold py-2 rounded-full text-base tracking-wider mt-2"
 					disabled={emailSendingStatus === 'sending'} // Disable the button while the email is being sent
 				>
 					{emailSendingStatus === 'sending'
