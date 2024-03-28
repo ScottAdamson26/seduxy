@@ -12,7 +12,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App bg-gradient-to-b from-purple via--dark-purple to-dark-purple min-h-screen flex flex-col justify-center items-center text-center p-4">
+      <div className="App bg-gradient-to-b from-purple via--dark-purple to-dark-purple flex flex-col justify-center items-center text-center p-4 h-screen">
         <Routes>
           <Route path="/" element={
             <>
