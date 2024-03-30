@@ -23,8 +23,10 @@ module.exports = {
         smaller: '0 0 10px rgba(0, 0, 0, 0.3)', // Example of an equally spread shadow
       },
       height: {
-        '10p': '10%',
-        '90p': '90%', // Here '10p' is a custom name for your utility
+        '7p': '7%',
+        '10p':'10%',
+        '90p': '90%', 
+        '7vh': '7vh',
       }
     },
   },

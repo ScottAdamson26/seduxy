@@ -12,7 +12,6 @@ function App() {
 
   return (
     <Router>
-      <div className="App bg-gradient-to-b from-purple via--dark-purple to-dark-purple flex flex-col justify-center items-center text-center p-4 h-screen">
         <Routes>
           <Route path="/" element={
             <>
@@ -27,9 +26,8 @@ function App() {
             </>
           } />
           <Route path="/home" element={<HomePage />} />
-          <Route path="/chat" element={<ChatUI />} /> {/* New route for ChatUI */}
+          <Route path="/chat" element={<ChatUI />} /> 
         </Routes>
-      </div>
     </Router>
   );
 }
