@@ -26,7 +26,7 @@ const LandingPage = ({ toggleModal, isModalOpen }) => {
           </h2>
         </div>
         
-        <button onClick={toggleModal} className="btn-default w-40 overflow-hidden relative text-white py-2 px-6 rounded-full font-bold text-base tracking-wider mt-4 transition-all duration-200 shadow-custom  bg-gradient-to-r from-custom-pink to-custom-red hover:-translate-y-[3px]">
+        <button onClick={toggleModal} className="btn-default w-40 overflow-hidden relative text-white py-2 px-6 rounded-full font-bold text-base tracking-wider mt-4 transition-all duration-200 shadow-custom  bg-gradient-to-r from-custom-pink to-custom-red hover:-translate-y-[2px]">
           <span className="relative">Early access</span>
         </button>
       </div>
