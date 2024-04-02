@@ -21,7 +21,9 @@ const ChatUI = () => {
   };
 
   const handleSendMessage = async (e) => {
+    
     e.preventDefault(); // Prevent form from refreshing the page
+    setInputValue(""); // Clear the input after sending
     const newMessage = {
       id: Date.now(), // Simple unique ID generation for the user message
       sender: "you",
@@ -32,6 +34,7 @@ const ChatUI = () => {
     simulateApiCall(newMessage).then(() => {
       // Add the user's message
       setMessages((prevMessages) => [...prevMessages, newMessage]);
+      
 
       // Create and add a confirmation message
       const confirmationMessage = {
@@ -43,9 +46,9 @@ const ChatUI = () => {
       // Simulate a slight delay before showing the confirmation to mimic network latency
       setTimeout(() => {
         setMessages((prevMessages) => [...prevMessages, confirmationMessage]);
-      }, 200);
+      }, 2000);
 
-      setInputValue(""); // Clear the input after sending
+      
     });
   };
 

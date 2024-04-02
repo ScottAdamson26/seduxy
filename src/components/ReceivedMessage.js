@@ -1,12 +1,13 @@
 // ReceivedMessage.js
 import React from "react";
 import lucieImage from './images/square.png'; // Ensure this path is correct
+import './chatstream.css';
 
 const ReceivedMessage = ({ message, showProfilePic }) => {
   return (
-    <div className="flex items-center text-left">
+    <div className="flex items-center text-left fadeIn ml-2">
       {/* Conditionally render the profile picture or an empty space to keep alignment */}
-      <div className="w-8 h-8 ml-2">
+      <div className="w-8 h-8">
         {showProfilePic ? (
           <img src={lucieImage} alt="Sender's Profile" className="w-8 h-8 rounded-full"/>
         ) : (

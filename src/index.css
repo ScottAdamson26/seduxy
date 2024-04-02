@@ -1,36 +1,33 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* Hide scrollbar buttons */
-::-webkit-scrollbar-button {
-  display: none;
-}
 
-/* This styles the scrollbar track */
-::-webkit-scrollbar {
+/* Customizes the scrollbar's width and color globally */
+*::-webkit-scrollbar {
   width: 10px; /* Adjust the width of the scrollbar */
 }
 
-/* This styles the scrollbar handle */
-::-webkit-scrollbar-thumb {
-  background: #550C2B; /* Your chosen color for the scrollbar */
-  border-radius: 10px; /* Rounded corners */
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0); /* Adjust the track (background) color */
+  border-radius: 6px; /* Optional: adds rounded corners to the scrollbar thumb */
+
 }
 
-/* This is for Firefox */
-* {
-  scrollbar-color: #550C2B black; /* thumb and track color */
+*::-webkit-scrollbar-thumb {
+  background: rgba(198, 126, 158, 0.359); /* Adjust the thumb color */
+  border-radius: 6px; /* Optional: adds rounded corners to the scrollbar thumb */
 }
+
 
 
 @tailwind base;
