@@ -53,7 +53,7 @@ const ChatUI = () => {
   };
 
   return (
-    <div className="App bg-gradient-to-b from-purple via--dark-purple to-dark-purple flex flex-col justify-center items-center text-center p-4 h-screen">
+    <div className="App bg-gradient-to-b from-purple via--dark-purple to-dark-purple flex flex-col justify-center items-center text-center p-2 h-screen">
       <div className="flex flex-col items-center h-full text-white font-montserrat m-0 p-0 w-full xl:w-3/4 xl:max-w-3xl mx-auto">
         {/* header */}
         <Header />
@@ -73,8 +73,8 @@ const ChatUI = () => {
           </div>
 
           {/* Chat box */}
-          <div className="absolute top-0 z-0 rounded-br-xl rounded-bl-xl bg-gradient-to-r from-purple via-darkish-p to-purple pl-1 pr-1 pb-1 mb-3 w-full h-full mt-[calc7%-1rem)]">
-            <div className="flex flex-col justify-end rounded-bl-lg rounded-br-lg bg-black bg-opacity-40 mx-auto p-3 w-full h-full">
+          <div className="absolute top-0 z-0 rounded-xl bg-gradient-to-r from-shade-d via-darkish-p to-shade-d pl-1 pr-1 pb-1 mb-3 w-full h-full mt-[calc7%-1rem)]">
+            <div className="flex flex-col justify-end rounded-lg bg-black bg-opacity-50 mx-auto p-3 w-full h-full">
               <ChatStream messages={messages} />
 
               {/* Message input */}

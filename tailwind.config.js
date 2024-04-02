@@ -15,7 +15,8 @@ module.exports = {
         'custom-dp':'#E64E79',
         'dark-purple':'#160211',
         'purple':'#5C0D2E',
-        'darkish-p':'#690E37'// Example custom color
+        'darkish-p':'#690E37',// Example custom color
+        'shade-d':'#8C1446'
       },
       boxShadow: {
         custom: '0 0 30px rgba(0, 0, 0, 0.4)',
